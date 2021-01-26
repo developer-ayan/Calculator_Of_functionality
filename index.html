@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Of Functions.!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div align=center class="heading"> <b>Calculator</b> </div>
+    <div class="main">
+        
+        <div class="main2">
+            <input type="text" id="input" class="input" disabled>
+        </div>
+        <div class="buttons">
+            <div class="special-buttons">
+                <button onclick="Buttondigits('%')" class="CE per">%</button>
+                <button onclick="Buttondigits('/')" class="digit1">/</button>
+                <button onclick="clearbutton()" class="digit1 buttonx"><b>x</b></button>
+                <button onclick="Clearbutton()" class="AC">AC</button>
+            </div>
+            <div>
+                <button onclick="Buttondigits('7')" class="digit1">7</button>
+                <button onclick="Buttondigits('8')" class="digit1">8</button>
+                <button onclick="Buttondigits('9')" class="digit1">9</button>
+                <button onclick="Buttondigits(' * ')" class="digit1 multi">x</button>
+            </div>
+            <div>
+                <button onclick="Buttondigits('4')" class="digit1">4</button>
+                <button onclick="Buttondigits('5')" class="digit1">5</button>
+                <button onclick="Buttondigits('6')" class="digit1">6</button>
+                <button onclick="Buttondigits(' - ')" class="digit1 minus">-</button>
+            </div>
+            <div>
+                <button onclick="Buttondigits('1')" class="digit1">1</button>
+                <button onclick="Buttondigits('2')" class="digit1">2</button>
+                <button onclick="Buttondigits('3')" class="digit1">3</button>
+                <button onclick="Buttondigits(' + ')" class="digit1 plus">+</button>
+            </div>
+            <div>
+                
+                <button onclick="Buttondigits('.')" class="digit1">.</button>
+                <button onclick="Buttondigits('0')" class="digit1">0</button>
+                <button onclick="Buttondigits1()" class="bor digit1">=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
